@@ -12,7 +12,7 @@ Sort the output first by occurrence count, then by integer value, using natural 
 
 ### Input file
 
-The input is a compressed file ([numbers.gz](./numbers.gz)) containing 100,000 unsigned integers, with values between 1 and 50,000 inclusive. These numbers do not include any kind of punctuation, and they are not in order.
+The input is a compressed file ([numbers.gz](./numbers.gz)) containing 1,000,000 unsigned integers, with values between 1 and 50,000 inclusive. These numbers do not include any kind of punctuation, and they are not in order.
 
 Note: Compression is not a part of this challenge, so the input should be decompressed prior to attempting this challenge:
 
