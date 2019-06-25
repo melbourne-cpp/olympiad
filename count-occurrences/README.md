@@ -18,6 +18,10 @@ Note: Compression is not a part of this challenge, so the input should be decomp
 
     gunzip -k numbers.gz
 
+The input numbers were originally generated with this command:
+
+    shuf -i 1-50000 -n 1000000 -r > numbers
+
 ### Output file
 
 Using the uncompressed output, the expected output ([numbers.tally](./numbers.tally)) was generated with the following command:
