@@ -7,6 +7,7 @@ This repo contains a set of programming challenges created and maintained by mem
 We currently have inputs and expected outputs for the following challenges:
 
   * [Intersection of two unsorted lists](./list-intersection)
+  * [Pixel Blending](./pixel-blending)
 
 ## Ideas
 
