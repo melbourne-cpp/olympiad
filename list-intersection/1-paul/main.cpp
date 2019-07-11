@@ -1,5 +1,6 @@
-#include <QDebug>
+#include <iostream>
 #include <QFile>
+#include <QSet>
 
 int main(int, const char * [])
 {
@@ -10,12 +11,12 @@ int main(int, const char * [])
     QFile words2("words.2");
     words2.open(QFile::ReadOnly);
     auto list2 = words2.readAll().split('\n');
-    qSort(list2.begin(), list2.end());
+    std::sort(list2.begin(), list2.end());
 
     foreach (const QByteArray &word, list2)
     {
         if (list.contains(word)) {
-            qInfo().noquote() << word;
+            std::cout << word.toStdString() << '\n';
         }
     }
     return EXIT_SUCCESS;
