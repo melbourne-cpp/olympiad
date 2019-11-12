@@ -4,11 +4,16 @@ This repo contains a set of programming challenges created and maintained by mem
 
 ## Challenges
 
-We currently have inputs and expected outputs for the following challenges:
+Challenges prepared for the first Olympiad:
 
   * [Count Occurrences](./count-occurrences)
   * [List Intersection](./list-intersection)
   * [Pixel Blending](./pixel-blending)
+
+Challenges prepared for the second Olympiad:
+
+  * [Generate Permutations](./generate-permutations)
+  * [Reverse Lines](./reverse-lines)
 
 ## Ideas
 
