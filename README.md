@@ -13,6 +13,7 @@ Challenges prepared for the [first Olympiad](https://www.meetup.com/MelbourneCpp
 Challenges prepared for the [second Olympiad](https://www.meetup.com/MelbourneCpp/events/266312038/):
 
   * [Generate Permutations](./generate-permutations)
+  * [Integer Summation](./integer-summation)
   * [Reverse Lines](./reverse-lines)
 
 ## Ideas
