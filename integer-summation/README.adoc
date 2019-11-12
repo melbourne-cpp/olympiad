@@ -1,0 +1,30 @@
+== Integer Summation
+
+=== Challenge
+
+Calculate the sum of a series of non-negative integers specified on the command line and print the result to stdout.
+
+=== Dataset
+
+==== Input
+
+The list of integers are supplied to `main` as commandline arguments (argc/argv).
+
+The integers are never negative.
+
+The integers may be of arbitrary length.
+
+The integers may be of arbitrary quantity.
+
+==== Output
+
+The script `summation.py` tests an executable against a selection of pseudo-random inputs and their expected outputs (with a constant seed).
+
+To test an executable you can execute:
+
+[source,python]
+----
+summation.py a.out
+----
+
+WARNING: The script is `minimally' tested. YMMV.
